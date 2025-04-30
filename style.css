@@ -264,77 +264,106 @@ box-shadow: 0 0 25px var(--main-color),
   text-align: center ;
   margin: 5rem 0;
 }
-.services{
+.skills {
   background-color: var(--bg-color);
   color: black;
 }
-.services h2{
+
+.skills h2 {
   color: var(--text-color);
 }
-.services-container{
+
+.skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
   gap: 2.5rem;
 }
-.service-box{
+
+.skill-box {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
-  height: 600px;
+  height: 400px;
   border-radius: 3rem;
   cursor: pointer;
   border: solid transparent;
   transition: 0.4s ease-in-out;
 }
-.service-box:hover{
+
+.skill-box:hover {
   background-color: var(--m-bg-color);
   transition: 0.4s ease-in-out;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
   color: var(--main-color);
 }
-.service-info{
+
+.skill-info {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
 }
-.service-info h3{
- font-size: 4rem;
- margin: 3rem 0;
- font-weight: 800;
-}
-.service-info p{
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.7;
-}
-.service-info i{
-  font-size: 5rem;
 
+.skill-info h3 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  font-weight: 700;
 }
+
+.skill-info p {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.9;
+}
+
+.skill-info i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
 .contact{
   background-color: var(--second-bg-color);
   color: var(--main-color);
 }
-.contact-box{
+.contact {
+  padding: 4rem 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.contact-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   border: 2px solid var(--main-color);
+  border-radius: 2rem;
+  padding: 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--m-bg-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.heading{
-  font-size: 7rem;
-  text-align: right;
-  padding-top: 55px;
-}
-.contact p{
+
+.heading {
+  font-size: 5rem;
   text-align: center;
-  font-size: 3.4rem;
+  color: var(--main-color);
+  margin-bottom: 2rem;
 }
+
+.contact p {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
 footer{
   background-color: var(--bg-color);
   padding: 50px 0;
