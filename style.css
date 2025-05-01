@@ -359,10 +359,11 @@ box-shadow: 0 0 25px var(--main-color),
 
 .contact p {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   line-height: 1.6;
   max-width: 600px;
 }
+
 
 footer{
   background-color: var(--bg-color);
